@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="toolbartitledime">36sp</dimen>
+  <dimen name="collapsingtoolbarheight">200dp</dimen>
+  <dimen name="shrine_toolbar_offset_start">5dp</dimen>
+  <dimen name="shrine_toolbar_offset_top">150dp</dimen>
+  <dimen name="fab_margin_right">20dp</dimen>
+  <dimen name="coffee_image_height">100dp</dimen>
+  <dimen name="coffee_image_width">100dp</dimen>
+  <dimen name="coffee_image_magin">16dp</dimen>
+  <dimen name="coffee_text_size">24sp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+</resources>

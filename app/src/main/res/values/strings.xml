@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">TestingDemo</string>
+  <string name="hello_world">Hello</string>
+  <string name="toolbarTitle">Coffee Companion</string>
+  <string name="image_content_desc">fox mug</string>
+  <string name="title_activity_coffee">CoffeeActivity</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="title_activity_student">StudentActivity</string>
+  <string name="action_settings">Settings</string>
+  <string name="student_list">Students</string>
+</resources>

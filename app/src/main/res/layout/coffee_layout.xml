@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:layout_width="@dimen/coffee_image_width"
+    android:layout_height="@dimen/coffee_image_height"
+    android:id="@+id/coffee_image_id"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_margin="@dimen/coffee_image_magin"
+    tools:src="@mipmap/ic_launcher_round"
+    />
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="261dp"
+    android:layout_height="@dimen/coffee_image_height"
+    android:id="@+id/coffee_text"
+    android:layout_marginLeft="24dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="8dp"
+    android:gravity="center_vertical"
+    android:textSize="@dimen/coffee_text_size"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintLeft_toRightOf="@id/coffee_image_id"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="coffee" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
